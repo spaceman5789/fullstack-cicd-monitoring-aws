@@ -1,5 +1,13 @@
 # Full-Stack Deploy: Terraform + GitLab CI/CD + Monitoring
 
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?logo=terraform&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonwebservices&logoColor=white)
+![GitLab CI](https://img.shields.io/badge/GitLab%20CI-FC6D26?logo=gitlab&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white)
+
 > Complete automation from commit to production on AWS with monitoring and alerting.
 
 This project demonstrates an **end-to-end DevOps pipeline**: infrastructure is provisioned via Terraform, code is delivered through GitLab CI/CD, and Prometheus + Grafana + AlertManager monitor system health 24/7.
@@ -479,3 +487,9 @@ This project integrates and builds upon three previous ones:
 | 4 | [gitlab-ci-ec2-deploy](https://github.com/spaceman5789/gitlab-ci-ec2-deploy) | GitLab CI/CD pipeline | Multi-stage pipeline, Docker build, deploy via SSH |
 | 5 | [multi-service-observability-stack](https://github.com/spaceman5789/multi-service-observability-stack) | Prometheus + Grafana monitoring | Scrape configs, Grafana dashboards, alert rules |
 | **6** | **This project** | **Everything combined** | Terraform + GitLab CI/CD + monitoring + CloudWatch + SNS |
+
+---
+
+## Author
+
+**Denis Nazarov** — DevOps Engineer · [GitHub](https://github.com/spaceman5789) · [Portfolio](https://denzo-portfolio.site)
